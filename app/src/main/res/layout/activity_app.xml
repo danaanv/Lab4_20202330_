@@ -8,29 +8,28 @@
 
     <FrameLayout
         android:id="@+id/container"
-        android:layout_width="378dp"
-        android:layout_height="628dp"
+        android:layout_width="match_parent"
+        android:layout_height="669dp"
         android:layout_above="@id/bottomNavigation1"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="17dp"
-        android:layout_marginBottom="16dp" >
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler"
             android:layout_width="318dp"
             android:layout_height="476dp"
-            android:layout_marginStart="30sp"
-            android:layout_marginTop="100sp"
+            android:layout_marginStart="45sp"
+            android:layout_marginTop="130sp"
             android:layout_marginEnd="30sp"
             android:layout_marginRight="30sp"
             android:layout_marginBottom="30sp"
             android:padding="30sp"
-            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-            app:spanCount="1"/>
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" />
     </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

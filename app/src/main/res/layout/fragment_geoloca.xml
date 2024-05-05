@@ -10,5 +10,37 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Buscar geolocalizacion" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+        android:text="Buscar geolocalización"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/buscadorPalabra"
+        android:layout_width="229dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="40sp"
+        android:layout_marginTop="100sp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Buscar"
+        android:inputType="text"
+        android:paddingStart="20sp"
+        android:textColor="#404040"
+        android:textColorHighlight="#404040"
+        android:textColorHint="#404040"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/buttonBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280sp"
+        android:layout_marginTop="95sp"
+        android:background="#12416B"
+        android:backgroundTint="#12416B"
+        android:text="Buscar" />
 </FrameLayout>

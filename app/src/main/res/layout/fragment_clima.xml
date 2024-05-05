@@ -10,5 +10,46 @@
         android:id="@+id/buscarclima"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Buscar clima" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+        android:text="Buscar clima"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ingresoLatitud"
+        android:layout_width="99dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="100sp"
+        android:background="@drawable/boton_redondeado"
+        android:ems="10"
+        android:hint="Latitud"
+        android:inputType="text"
+        android:textSize="14sp"
+        android:paddingStart="20sp"/>
+
+    <EditText
+        android:id="@+id/ingresoLongitud"
+        android:layout_width="94dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="160sp"
+        android:layout_marginTop="100sp"
+        android:background="@drawable/boton_redondeado"
+        android:ems="10"
+        android:hint="Longitud"
+        android:inputType="text"
+        android:textSize="14sp"
+        android:paddingStart="20sp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginStart="280sp"
+        android:layout_marginTop="97sp"
+        android:background="#12416B"
+        android:backgroundTint="#12416B"
+        android:text="Buscar" />
 </FrameLayout>
